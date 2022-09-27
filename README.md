@@ -41,7 +41,7 @@ Please provide securestring value for 'azureAdClientSecret' (? for help):
 
 Refer back to Option 2 of the the [Configure your App Service or Azure Functions app to use Azure AD login](https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-aad#-option-2-use-an-existing-registration-created-separately) documenation and update the app registration Redirect URI in Step 4 with the `RedirectUri` output value
 
-### Usage
+## Usage
 
 Use your favorite HTTP testing tool such as cURL, Postman, VS Code HTTP Client, etc to send a GET request to the `ApiUri` value in the output of `az deployment group create` command above.
 
